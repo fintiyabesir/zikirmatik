@@ -4,8 +4,13 @@
     "slug": "zikirmatik",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.zikirmatik.app" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zikirmatik.app",
+      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+    },
     "android": { "package": "com.zikirmatik.app" }
   }
 }
