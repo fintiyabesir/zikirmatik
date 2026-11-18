@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Zikirmatik",
+    "slug": "zikirmatik",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.zikirmatik.app" },
+    "android": { "package": "com.zikirmatik.app" }
+  }
+}
